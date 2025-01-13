@@ -1,0 +1,10 @@
+@import url('./Variables.css');
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: var(--gray-50);
+  border-radius: 16px;
+  box-shadow: var(--shadow-md);
+}

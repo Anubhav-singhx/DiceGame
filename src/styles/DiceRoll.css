@@ -1,0 +1,73 @@
+/* DiceRoll.css */@import url('./Variables.css');
+.roll-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .roll-img img {
+    height: 190px;
+    width: 250px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .roll-img img:hover {
+    transform: scale(1.1);
+  }
+  
+  .reset, .rules {
+    border: none;
+    height: 50px;
+    width: 250px;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reset {
+    background-color: #00bcd4; /* Sky blue */
+  }
+  
+  .rules {
+    background-color: #39ff14; /* Neon green */
+  }
+  
+  .reset:hover {
+    background-color: #0097a7; /* Darker sky blue */
+  }
+  
+  .rules:hover {
+    background-color: #32cd32; /* Darker neon green */
+  }
+  
+  .rule-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ruleBook {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 50vw;
+    background-color: rgba(255, 210, 217, 0.5);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 10px;
+  }

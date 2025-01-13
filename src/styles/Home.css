@@ -1,0 +1,59 @@
+@import url('./Variables.css');
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--sky-blue-50);
+    padding: 2rem;
+  }
+  
+  .dices-img {
+    max-width: 600px;
+    transition: var(--transition-base);
+  }
+  
+  .dices-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+  }
+  
+  .home-txt {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .home-txt h1 {
+    font-size: 3.5rem;
+    color: var(--sky-blue-500);
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  
+  .play-btn {
+    background-color: var(--neon-green-400);
+    color: var(--gray-50);
+    height: 56px;
+    min-width: 180px;
+    border: none;
+    border-radius: 28px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 0 2rem;
+    cursor: pointer;
+    transition: var(--transition-base);
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .play-btn:hover {
+    background-color: var(--neon-green-500);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+  }

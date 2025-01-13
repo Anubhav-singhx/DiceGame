@@ -1,0 +1,19 @@
+@import url('./styles/Variables.css');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--sky-blue-50);
+    color: var(--gray-700);
+    line-height: 1.5;
+  }
+  
+  .main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--gray-50);
+    box-shadow: var(--shadow-md);
+    border-radius: 16px;
+    min-height: 80vh;
+  }
